@@ -7,5 +7,6 @@
     </a>
     <p *ngIf="product.description">Description: {{ product.description }}</p>
     <button (click)="share()">Share</button>
+    <app-product-alerts [product]="product"> </app-product-alerts>
   </h3>
 </div>
